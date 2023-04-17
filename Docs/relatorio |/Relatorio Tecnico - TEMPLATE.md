@@ -9,7 +9,10 @@ Sistemas de Informação
 
 ## Participantes
 
-......  COLOQUE AQUI O SEU TEXTO ......
+-Hayanne Santos da Silva
+-Ana Paula Teixeira Cardoso
+-Paulo Henrique Murta de Oliveira
+-Robson Barbosa de Souza
 
 > Inclua a lista dos membros da equipe com seus nomes completos.
 >
