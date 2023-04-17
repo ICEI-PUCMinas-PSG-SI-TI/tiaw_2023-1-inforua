@@ -57,7 +57,7 @@ O problema que afeta os indivíduos é a frustação com a falta de informaçõe
 
 ## Objetivos
 
-oi
+......  COLOQUE AQUI O SEU TEXTO ......
 
 > Aqui você deve descrever os objetivos do trabalho indicando que o
 > objetivo geral é desenvolver um software para solucionar o problema
