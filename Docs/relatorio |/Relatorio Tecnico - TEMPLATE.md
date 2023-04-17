@@ -1,11 +1,11 @@
 # Informações do Projeto
 `TÍTULO DO PROJETO`  
 
-......  COLOQUE AQUI O SEU TEXTO ......
+InfoRua
 
 `CURSO` 
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Sistemas de Informação
 
 ## Participantes
 
@@ -39,7 +39,7 @@
 
 ## Problema
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Frustação com a falta de informação do bairro: a falta de informações sobre os serviços disponíveis, as atividades culturais e sociais, bem como questões de segurança, pode aumentar a vulnerabilidade dos moradores e visitantes. A falta de informação do bairro afeta principalmente aqueles que vivem ou trabalham na região. Isso inclui comerciantes, empresários, funcionários, turistas, estudantes e residentes locais. Eles podem ter dificuldades para se locomover, encontrar os serviços que precisam, e até mesmo para conviver e interagir com seus vizinhos. A falta de informações pode gerar isolamento, falta de desenvolvimento, e até mesmo a marginalização de algumas áreas da cidade. Por isso, é importante garantir que as informações estejam sempre disponíveis e atualizadas para que todos possam desfrutar plenamente seu bairro.
 
 > Nesse momento você deve apresentar o problema que a sua aplicação deve
 > resolver. No entanto, não é a hora de comentar sobre a aplicação.
@@ -64,7 +64,7 @@
 
 ## Público-Alvo
 
-......  COLOQUE AQUI O SEU TEXTO ......
+O público-alvo de um site sobre informações de um bairro pode incluir residentes atuais e futuros do bairro, bem como empresas locais interessadas em promover seus produtos ou serviços para o público da região. Os residentes atuais podem ser de diversas faixas etárias e interesses variados, mas eles compartilham um interesse comum em conhecer a informação atualizada sobre os eventos locais, atrativos turísticos, lojas e serviços. Os futuros residentes podem buscar informações sobre a qualidade de vida do bairro, o valor imobiliário e serviços disponíveis antes de decidir se mudar para a região. As empresas locais podem procurar publicidade e parceria com o site para ser conhecidas pelo público-alvo da região e atrair novos clientes. Em geral, o público-alvo de um site sobre informações de um bairro é composto por pessoas interessadas em conhecer melhor a região e que buscam informações atualizadas sobre a vida local.
 
 > Descreva quem serão as pessoas que usarão a sua aplicação indicando os
 > diferentes perfis. O objetivo aqui não é definir quem serão os
