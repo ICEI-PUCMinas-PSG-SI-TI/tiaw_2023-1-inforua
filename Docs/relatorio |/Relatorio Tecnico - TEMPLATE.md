@@ -91,7 +91,8 @@ O público-alvo de um site sobre informações de um bairro pode incluir residen
 
 ## Personas
 
-Priscila Alves: Com 25 anos, solteira, trabalha como Gerente Geral em uma empresa de Contabilidade, está à procura de uma nova residência em um bairro movimentado e com muitas informações. É uma mulher muito sociável, gosta de sair nos finais de semanas com os amigos do trabalho, de postar fotos nas redes sociais, publicar sobre coisas que vive no seu dia a dia, e também, ficar por entro de todas as informações. Por ela trabalhar muito e não ter tempo de estar por dentro de tudo o que gosta, Priscila procura por praticidade no seu dia a dia, e que encontrar um site que atenda todas suas necessidades diárias e que possa se divertir com ele também.​
+Priscila Alves: Com 25 anos, solteira, trabalha como Gerente Geral em uma empresa de Contabilidade, está à procura de uma nova residência em um bairro movimentado e com muitas informações. É uma mulher muito sociável, gosta de sair nos finais de semanas com os amigos do trabalho, de postar fotos nas redes sociais, publicar sobre coisas que vive no seu dia a dia, e também, ficar por entro de todas as informações. Por ela trabalhar muito e não ter tempo de estar por dentro de tudo o que gosta, Priscila procura por praticidade no seu dia a dia, e que encontrar um site que atenda todas suas necessidades diárias e que possa se divertir com ele também.
+https://github.com/ICEI-PUCMinas-PSG-SI-TI/tiaw_2023-1-inforua/blob/master/docs/relatorio/images/Persona%20InfoRua.png
 
 > Relacione as personas identificadas no seu projeto. Lembre-se que 
 > você deve descrever precisamente e de forma personalizada o público alvo do seu projeto. 
