@@ -122,15 +122,13 @@ https://github.com/ICEI-PUCMinas-PSG-SI-TI/tiaw_2023-1-inforua/blob/master/docs/
  
 
 ## Histórias de Usuários
-
-Eu como Priscila Alves,  preciso de uma nova casa em um bairro popular, para ter mais praticidade no meu dia a dia e buscar diversão. 
-
+ 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|EU COMO `Priscila Alves` | QUERO/PRECISO ... `de uma nova casa em um bairro popular` |PARA ... `ter mais praticidade no meu dia a dia e buscar diversão`|
+|-------------------------|-----------------------------------------------------------|------------------------------------------------------------------|
+|   Usuário do sistema    |               Registrar minhas tarefas                    |                     Não esquecer de fazê-las                     |
+|    Administrador        |                   Alterar permissões                      |              Permitir que possam administrar contas              |
 
 > Seguindo o modelo acima, apresente aqui as histórias de usuário que são relevantes para o
 > projeto de sua solução. As Histórias de Usuário consistem em uma
@@ -167,8 +165,7 @@ A tabela que segue apresenta os requisitos funcionais do projeto.
 
 ## Wireframes
 
-Abaixo temos o wireframe da página inicial pelo qual o projeto está se baseando, nele temos a esquerda uma aba onde estará  a conta da pessoa e algumas opções de páginas para o usuário clicar, como a página de vendas/aluguel de imóveis,  outra para mostrar os restaurantes próximos.... 
-Agora no centro dessa página, teremos um local oned os moradores poderam escrever informações ou qualquer coisa que seja útil para ser mostrado aos outros moradores.
+Abaixo temos o wireframe da página inicial pelo qual o projeto está se baseando, nele temos a esquerda uma aba onde estará  a conta da pessoa e algumas opções de páginas para o usuário clicar, como a página de vendas/aluguel de imóveis,  outra para mostrar os restaurantes próximos, entre outros. Agora no centro dessa página, teremos um local oned os moradores poderam escrever informações ou qualquer coisa que seja útil para ser compartilhado com os outros. Já a direita temos uma parte onde irá aparecer lugares recomendados para os usuários. 
 
 ......  INCLUA AQUI OS WIREFRAMES DAS TELAS DA APLICAÇÃO COM UM BREVE DESCRITIVO ......
 
