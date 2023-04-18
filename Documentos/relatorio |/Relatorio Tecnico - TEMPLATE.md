@@ -93,7 +93,7 @@ O público-alvo de um site sobre informações de um bairro pode incluir residen
  
 # Especificações do Projeto
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Nosso projeto tem como finalidade, auxiliar os nossos usuários com varias informações e noticias no dia a dia com a demanda de cada um. Nosso projeto é gerido e administrado por uma equipe que esta em constante evolução para melhor atender as necessidades de todos, para isso usamos varias ferramentas de desenvolvimento, hospedamos nossos materias no Github. Usamos o Trello para gerenciamento do nosso projeto, o nosso nome foi criado atraves do site shopify e estamos em processo de finalizar o dominio do nome, usamos o editor de imagens Canvas para criação da nossa logo e toda a edição de HTML e CSS e realizada no Visual Studio Code com auxilio do framework web bootstrap.
 
 > Apresente uma visão geral do que será abordado nesta parte do
 > documento, enumerando as técnicas e/ou ferramentas utilizadas para
