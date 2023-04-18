@@ -188,7 +188,9 @@ Abaixo temos o wireframe da página inicial pelo qual o projeto está se baseand
 
 ## Mapa de navegação
 
-......  COLOQUE AQUI O SEU TEXTO OU DIAGRAMA DE NAVEGAÇÃO .......
+
+
+https://lucid.app/lucidchart/9151eedd-cfbe-4755-b5be-39c23b644835/edit?viewport_loc=-354%2C-1615%2C3840%2C1848%2C0_0&invitationId=inv_a57e391e-1006-4821-8dc0-9fcda3ebec4b
 
 > Inclua uma descrição textual ou um diagrama mostrando, sequencialmente, quais ações
 > um usuário deve realizar para utilizar todas as características do seu sistema. 
