@@ -57,7 +57,11 @@ O problema que afeta os indivíduos é a frustação com a falta de informaçõe
 
 ## Objetivos
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Gerar um software voltado para a falta de informação entre os moradores do bairro. 
+- Promover informações entre moradores.
+- Enunciar venda ou alugieis de móveis.
+- Apontar os restaurantes existentes no determinado bairro.
+- Reunir as promoções feitas pelos comércios e mostrar para os moradores. 
 
 > Aqui você deve descrever os objetivos do trabalho indicando que o
 > objetivo geral é desenvolver um software para solucionar o problema
@@ -119,6 +123,8 @@ https://github.com/ICEI-PUCMinas-PSG-SI-TI/tiaw_2023-1-inforua/blob/master/docs/
 
 ## Histórias de Usuários
 
+Eu como Priscila Alves,  preciso de uma nova casa em um bairro popular, para ter mais praticidade no meu dia a dia e buscar diversão. 
+
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
@@ -160,6 +166,9 @@ A tabela que segue apresenta os requisitos funcionais do projeto.
 > Descreva brevemente quais tecnologias e/ou frameworks foram utilizados no projeto.
 
 ## Wireframes
+
+Abaixo temos o wireframe da página inicial pelo qual o projeto está se baseando, nele temos a esquerda uma aba onde estará  a conta da pessoa e algumas opções de páginas para o usuário clicar, como a página de vendas/aluguel de imóveis,  outra para mostrar os restaurantes próximos.... 
+Agora no centro dessa página, teremos um local oned os moradores poderam escrever informações ou qualquer coisa que seja útil para ser mostrado aos outros moradores.
 
 ......  INCLUA AQUI OS WIREFRAMES DAS TELAS DA APLICAÇÃO COM UM BREVE DESCRITIVO ......
 
