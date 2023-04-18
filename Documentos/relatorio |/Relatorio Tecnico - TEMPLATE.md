@@ -166,6 +166,7 @@ A tabela que segue apresenta os requisitos funcionais do projeto.
 ## Wireframes
 
 Abaixo temos o wireframe da página inicial pelo qual o projeto está se baseando, nele temos a esquerda uma aba onde estará  a conta da pessoa e algumas opções de páginas para o usuário clicar, como a página de vendas/aluguel de imóveis,  outra para mostrar os restaurantes próximos, entre outros. Agora no centro dessa página, teremos um local oned os moradores poderam escrever informações ou qualquer coisa que seja útil para ser compartilhado com os outros. Já a direita temos uma parte onde irá aparecer lugares recomendados para os usuários. 
+(https://github.com/ICEI-PUCMinas-PSG-SI-TI/tiaw_2023-1-inforua/blob/master/docs/relatorio/images/WireFrame.jpeg)
 
 ......  INCLUA AQUI OS WIREFRAMES DAS TELAS DA APLICAÇÃO COM UM BREVE DESCRITIVO ......
 
