@@ -163,7 +163,8 @@ A tabela que segue apresenta os requisitos funcionais do projeto.
 
 # Projeto da Solução
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Para a solução de vários encrementos e auxílios na criação do nosso projeto, iniciamos com o visual Studio code, com i auxílio do framework Bootstrap que já conta com uma biblioteca incrível de CSS e HTML.
+
 > Descreva brevemente quais tecnologias e/ou frameworks foram utilizados no projeto.
 
 ## Wireframes
@@ -204,7 +205,7 @@ https://lucid.app/lucidchart/9151eedd-cfbe-4755-b5be-39c23b644835/edit?viewport_
 
 # Conclusões
 
-......  COLOQUE AQUI O SEU TEXTO ......
+
 
 > Finalize escrevendo um ou dois parágrafos para relembrar o objetivo do projeto, 
 > o que foi possível alcançar e o que ficou para um trabalho futuro, e relembrando
