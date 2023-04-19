@@ -163,7 +163,7 @@ A tabela que segue apresenta os requisitos funcionais do projeto.
 
 # Projeto da Solução
 
-Para a solução de vários encrementos e auxílios na criação do nosso projeto, iniciamos com o visual Studio code, com i auxílio do framework Bootstrap que já conta com uma biblioteca incrível de CSS e HTML.
+Para a solução de vários encrementos e auxílios na criação do nosso projeto, iniciamos com o visual Studio code, com o auxílio do framework Bootstrap que já conta com uma biblioteca incrível de CSS e HTML.
 
 > Descreva brevemente quais tecnologias e/ou frameworks foram utilizados no projeto.
 
