@@ -147,8 +147,11 @@ A tabela que segue apresenta os requisitos funcionais do projeto.
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-001| O sistema deve cadastrar o cliente     | ALTA | 
+|RF-002| O sistema deve gerar relatorios de pesquisas    | MÉDIA |
+|RF-003| O sistema deve gerar relatorios de publicaçoes    | MÉDIA |
+|RF-004| O sistema deve autenticar os usuarios    | ALTA |
+|RF-005| O sistema deve ajudar os usuarios com duvidas | MÉDIA |
 
 
 > Com base nas Histórias de Usuário, enumere os requisitos da sua
