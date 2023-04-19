@@ -163,7 +163,7 @@ A tabela que segue apresenta os requisitos funcionais do projeto.
 
 # Projeto da Solução
 
-Para a solução de vários encrementos e auxílios na criação do nosso projeto, iniciamos com o visual Studio code, com o auxílio do framework Bootstrap que já conta com uma biblioteca incrível de CSS e HTML.
+Para a solução de vários encrementos e auxílios na criação do nosso projeto, iniciamos com o visual Studio code, com o auxílio do framework Bootstrap que já consta com uma biblioteca incrível de CSS e HTML.
 
 > Descreva brevemente quais tecnologias e/ou frameworks foram utilizados no projeto.
 
@@ -205,6 +205,17 @@ https://lucid.app/lucidchart/9151eedd-cfbe-4755-b5be-39c23b644835/edit?viewport_
 
 # Conclusões
 
+**Conclusões finais do projeto:**
+
+O projeto tem como principal objetivo trazer benefícios para comunidade, melhoria da acessibilidade de informações, impacto na tomada de decisão e engajamento da comunidade. 
+
+**Considerações finais:**
+
+O projeto de informações de um bairro "InfoRua" tem como objetivo fornecer uma plataforma acessível e abrangente para os moradores obterem informações relevantes de seu bairro, atravéz do nosso site desenvolvido, buscamos facilitar o acesso a informações importantes sobre qualquer recursos e serviços disponíveis no bairro.
+
+Durante o desenvolvimento do projeto, buscamos engajar ativamente a comunidade local, recebendo um feedback e considerando as necessidades e expectativas dos moradores. Isso resultou em um site intuitivo e de fácil navegação, com informações claras e organizadas, incluindo mapas, imagens e descrições detalhadas de pontos relevantes do bairro.
+
+Recomendamos atualizações regulares do site para manter as informações atualizadas e relevantes, bem como a expansão de recursos adicionais com base no feedback e apoio da comunidade.
 
 
 > Finalize escrevendo um ou dois parágrafos para relembrar o objetivo do projeto, 
