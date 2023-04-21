@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+*{
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(79, 226, 223);
+    padding: 20px 20px;
+  }
+  
+  nav {
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .cabecalho {
+    display: flex;
+    align-items: center;
+  }
+  
+  .cabecalho img {
+    width: 100px;
+    margin-right: 20px;
+  }
+
+  
+  .barra-pesquisa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .barra-pesquisa input {
+    padding: 5px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+  }
+  
+  .barra-pesquisa button {
+    padding: 5px;
+    font-size: 16px;
+    background-color: #F5F5F5;
+    color: black;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+  }
+  
+  /*.menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }*/
+  
+  .menu li a {
+    text-decoration: none;
+    color:rgb(79, 226, 223) ;
+    font-size: 24px;
+   
+  }
+  
+  .menu li a:hover {
+    color: white;
+  }
+  
+  
+@media (max-width: 848px) {
+  header {
+    flex-direction: column;
+  }
+
+  .cabecalho {
+    flex-direction: column;
+  }
+}
+.hamburger{
+  width: 2rem;
+  height: 2rem;
+  position: fixed;
+  z-index: 5;
+  right: 2rem;
+  top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.show-menu .hamburger{
+  right: 16rem;
+
+}
+
+.line{
+  width: 100%;
+  height: .1rem;
+  padding: 1px;
+  border-radius: 10px;
+  background-color: rgb(6, 8, 28);
+  box-shadow: 0.1rem 0.1rem 3px rgba(0, 0, 0, 0.788);
+  transition: transform .7s;
+}
+.show-menu #line1{
+  transform: rotate(45deg) translate(.4rem, .9rem);
+  background-color: rgb(79, 226, 223);
+  box-shadow: none;
+}
+
+.show-menu #line2{
+  opacity: 0;
+  visibility: hidden;
+}
+
+.show-menu #line3{
+  transform: rotate(-45deg) translate(.3rem, -.9rem);
+  background-color: rgb(79, 226, 223);
+  box-shadow: none;
+}
+
+.sidebar{
+  width: 20rem;
+  height: 100vh;
+  background: linear-gradient(329.54deg, #111111 0%, #222222 100%);
+  box-shadow: 10px 5px 15px 10px rgba(0, 0, 0, 0.582);
+  position: fixed;
+  top: 0;
+  right: -20rem;
+  transition: all .8s;
+}
+
+.show-menu .sidebar{
+  right: 0;
+}
+
+.menu{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  list-style: none;
+}
+.menu i{
+  font-size: 24px;
+}
+/*rodapé*/
+
+main {
+  height: 80vh;
+}
+
+footer {
+  width: 100%;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.788);
+}
+
+.footer-link {
+  text-decoration: none;
+}
+
+#footer_content {
+  background-color: var(--color-neutral-10);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 3rem 3.5rem;
+}
+
+#footer_contacts h1 {
+  margin-bottom: 0.75rem;
+}
+
+#footer_social_media {
+  display: flex;
+  gap: 2rem;
+  margin-top: 1.5rem;
+} 
+
+#footer_social_media .footer-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.5rem;
+  width: 2.5rem;
+  color: var(--color-neutral-40);
+  border-radius: 50%;
+  transition: all 0.4s;
+}
+
+#footer_social_media .footer-link i {
+  font-size: 1.25rem;    
+}
+
+#footer_social_media .footer-link:hover {
+  opacity: 0.8;
+}
+
+#instagram {
+  background: linear-gradient(#7f37c9, #ff2992, #ff9807);
+}
+
+#facebook {
+  background-color: #4267b3;
+}
+
+#whatsapp {
+  background-color: #25d366;
+}
+
+#footer_copyright {
+  display: flex;
+  justify-content: center;
+  background-color: var(--color-neutral-0);
+  font-size: 0.9rem;
+  padding: 1.5rem;
+  font-weight: 100;
+}
+
+@media screen and (max-width: 768px) {
+  #footer_content {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 2rem;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  #footer_content {
+      grid-template-columns: repeat(1, 1fr);
+      padding: 3rem 2rem;
+  }
+}

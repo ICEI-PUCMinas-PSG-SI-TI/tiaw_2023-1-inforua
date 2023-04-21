@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+/*barra de informações*/
+.menu li a {
+  text-decoration: none;
+  color:rgb(79, 226, 223) ;
+  font-size: 24px;
+ 
+}
+
+.menu li a:hover {
+  color: white;
+}
+
+
+@media (max-width: 848px) {
+header {
+  flex-direction: column;
+}
+
+.cabecalho {
+  flex-direction: column;
+}
+}
+.hamburger{
+    width: 2rem;
+    height: 2rem;
+    position: fixed;
+    z-index: 5;
+    right: 2rem;
+    top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+  }
+  
+  .show-menu .hamburger{
+    right: 16rem;
+  
+  }
+  
+  .line{
+    width: 100%;
+    height: .1rem;
+    padding: 1px;
+    border-radius: 10px;
+    background-color: rgb(6, 8, 28);
+    box-shadow: 0.1rem 0.1rem 3px rgba(0, 0, 0, 0.788);
+    transition: transform .7s;
+  }
+  .show-menu #line1{
+    transform: rotate(45deg) translate(.4rem, .9rem);
+    background-color: rgb(79, 226, 223);
+    box-shadow: none;
+  }
+  
+  .show-menu #line2{
+    opacity: 0;
+    visibility: hidden;
+  }
+  
+  .show-menu #line3{
+    transform: rotate(-45deg) translate(.3rem, -.9rem);
+    background-color: rgb(79, 226, 223);
+    box-shadow: none;
+  }
+  
+  .sidebar{
+    width: 20rem;
+    height: 100vh;
+    background: linear-gradient(329.54deg, #111111 0%, #222222 100%);
+    box-shadow: 10px 5px 15px 10px rgba(0, 0, 0, 0.582);
+    position: fixed;
+    top: 0;
+    right: -20rem;
+    transition: all .8s;
+  }
+  
+  .show-menu .sidebar{
+    right: 0;
+  }
+  
+  .menu{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    list-style: none;
+  }
+  .menu i{
+    font-size: 24px;
+  }
+  /*menu lateral*/
+body{
+    display: flex;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1550px;
+    padding: 0 10px;
+  }
+  .sidebar2{
+    border-right: 1px solid var(rgb(79, 226, 223));
+    flex: 0.2;
+    min-width: 250px;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .sidebarOption i{
+    padding: 14px;
+  }
+  .sidebarOption{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  .sidebarOption h2{
+    font-weight: 800;
+    font-size: 20px;
+    margin-right: 20px;
+  }
+  .sidebarOption:hover{
+    background-color: rgb(79, 226, 223);
+    border-radius: 30px;
+    color: white;
+    transition: color 100ms ease-out;
+  }
+  .sidebarOption__tweet{
+    width: 100%;
+    background-color:rgb(79, 226, 223) ;
+    border: none;
+    color: white;
+    border-radius: 30px;
+    height: 50px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  .sidebar2 nav{
+    align-items: center;
+    font-size: 60px;
+    list-style: none;
+    color:rgb(79, 226, 223) ;
+    cursor: pointer;
+    display: flex;
+    padding: 30px;
+  }
+/*feed*/
+.feed{
+  flex: 0.5;
+  border-right: 1px solid rgb(6, 8, 28);
+  min-width: fit-content;
+  overflow-y: scroll;
+}
+.feed_header{
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 100;
+  border: 1px solid rgb(6, 8, 28);
+  padding: 15px 20px;
+}
+.feed__header h2{
+  font-size: 20px;
+  font-weight: 800;
+}
+.feed::-webkit-scrollbar{
+  display: none;
+}
+.feed{
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.tweetbox__input img{
+  border-radius: 50%;
+  height: 40px;
+}
+.tweetBox {
+  padding-bottom: 10px;
+  border-bottom: 8px solid rgb(6, 8, 28) ;
+  padding-right: 10px;
+}
+.tweetBox form{
+  display: flex;
+  flex-direction: column;
+}
+.tweetbox__input{
+  display: flex;
+  padding: 20px;
+}
+.tweetbox__input input{
+  flex: 1;
+  margin-left: 20px;
+  font-size: 20px;
+  border: none;
+  outline: none;
+}
+.tweetBox__tweetButton{
+  background-color: rgb(79, 226, 223);
+  border: none;
+  color: white;
+  font-weight: 900;
+  border-radius: 30px;
+  width: 80px;
+  height: 40px;
+  margin-top: 20px;
+  margin-left: auto;
+}
+
