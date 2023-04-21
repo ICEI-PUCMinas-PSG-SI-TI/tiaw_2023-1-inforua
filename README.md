@@ -12,7 +12,7 @@ O Site InfoRua é fundamental para uma comunicação mais eficiente e rápida en
 ## Professores responsáveis
 
 * João Caram Santos de Oliveira 
-* Nome completo do professor 2
+* Gabriel Barbosa da Fonseca
 
 ## Quadro de tarefas
 https://trello.com/invite/b/FAZWgmUD/ATTI945e76c522f6f8e007ab20829af5c783C100129E/site-inforua
