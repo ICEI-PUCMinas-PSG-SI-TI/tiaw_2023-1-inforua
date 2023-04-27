@@ -112,6 +112,9 @@ body{
     padding-left: 20px;
     padding-right: 20px;
   }
+  .sidebar2 a{
+    color: rgb(79, 226, 223);
+  }
   .sidebarOption i{
     padding: 14px;
   }
