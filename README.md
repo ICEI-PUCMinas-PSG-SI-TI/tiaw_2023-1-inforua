@@ -9,6 +9,18 @@ O Site InfoRua é fundamental para uma comunicação mais eficiente e rápida en
 * Paulo Henrique Murta de Oliveira 
 * Robson Barbosa de Souza
 
+## Sprint 1 (15 pontos)
+### Documentação
+**ATENÇÃO: o relatório que devia ser preenchido foi apagado por vocês no repositório. Não podem fazer isso, é um documento obrigatório. Verifiquem no commit inicial o documento "docs/relatorio/Relatorio Tecnico - TEMPLATE.md". A nota desta parte (3 pontos) está zerada até que isso seja resolvido**
+- Folha de detalhamento do problema 
+- Persona(s)
+- Histórias de usuários prioritárias (pelo menos 3)
+- Wireframes apresentados no vídeo.
+
+### Observações sobre a apresentação 
+A segunda apresentação entregue está de acordo com os objetivos do trabalho. O ponto principal nela é tentar diminuir a quantidade de texto dos slides, pois o slide deve ser somente um ponto de apoio e não obrigar o espectador a ficar fixado nele, perdendo a fala do apresentador. Consequentemente, o ritmo da apresentação ficou um pouco prejudicado. 
+
+
 ## Professores responsáveis
 
 * João Caram Santos de Oliveira 
