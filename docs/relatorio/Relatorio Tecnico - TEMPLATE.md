@@ -93,7 +93,7 @@ O público-alvo de um site sobre informações de um bairro pode incluir residen
  
 # Especificações do Projeto
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Nosso projeto tem como finalidade, auxiliar os nossos usuários com varias informações e noticias no dia a dia com a demanda de cada um. Nosso projeto é gerido e administrado por uma equipe que esta em constante evolução para melhor atender as necessidades de todos, para isso usamos varias ferramentas de desenvolvimento, hospedamos nossos materias no Github. Usamos o Trello para gerenciamento do nosso projeto, o nosso nome foi criado atraves do site shopify e estamos em processo de finalizar o dominio do nome, usamos o editor de imagens Canvas para criação da nossa logo e toda a edição de HTML e CSS e realizada no Visual Studio Code com auxilio do framework web bootstrap e o Figma foi usado para criação do wireframe.
 
 > Apresente uma visão geral do que será abordado nesta parte do
 > documento, enumerando as técnicas e/ou ferramentas utilizadas para
@@ -122,15 +122,13 @@ https://github.com/ICEI-PUCMinas-PSG-SI-TI/tiaw_2023-1-inforua/blob/master/docs/
  
 
 ## Histórias de Usuários
-
-Eu como Priscila Alves,  preciso de uma nova casa em um bairro popular, para ter mais praticidade no meu dia a dia e buscar diversão. 
-
+ 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|EU COMO `Priscila Alves` | QUERO/PRECISO ... `de uma nova casa em um bairro popular` |PARA ... `ter mais praticidade no meu dia a dia e buscar diversão`|
+|-------------------------|-----------------------------------------------------------|------------------------------------------------------------------|
+|   Usuário do sistema    |               Registrar minhas tarefas                    |                     Não esquecer de fazê-las                     |
+|    Administrador        |                   Alterar permissões                      |              Permitir que possam administrar contas              |
 
 > Seguindo o modelo acima, apresente aqui as histórias de usuário que são relevantes para o
 > projeto de sua solução. As Histórias de Usuário consistem em uma
@@ -149,8 +147,11 @@ A tabela que segue apresenta os requisitos funcionais do projeto.
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-001| O sistema deve cadastrar o cliente     | ALTA | 
+|RF-002| O sistema deve gerar relatorios de pesquisas    | MÉDIA |
+|RF-003| O sistema deve gerar relatorios de publicaçoes    | MÉDIA |
+|RF-004| O sistema deve autenticar os usuarios    | ALTA |
+|RF-005| O sistema deve ajudar os usuarios com duvidas | MÉDIA |
 
 
 > Com base nas Histórias de Usuário, enumere os requisitos da sua
@@ -162,13 +163,14 @@ A tabela que segue apresenta os requisitos funcionais do projeto.
 
 # Projeto da Solução
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Para a solução de vários encrementos e auxílios na criação do nosso projeto, iniciamos com o visual Studio code, com o auxílio do framework Bootstrap que já consta com uma biblioteca incrível de CSS e HTML.
+
 > Descreva brevemente quais tecnologias e/ou frameworks foram utilizados no projeto.
 
 ## Wireframes
 
-Abaixo temos o wireframe da página inicial pelo qual o projeto está se baseando, nele temos a esquerda uma aba onde estará  a conta da pessoa e algumas opções de páginas para o usuário clicar, como a página de vendas/aluguel de imóveis,  outra para mostrar os restaurantes próximos.... 
-Agora no centro dessa página, teremos um local oned os moradores poderam escrever informações ou qualquer coisa que seja útil para ser mostrado aos outros moradores.
+Abaixo temos o wireframe da página inicial pelo qual o projeto está se baseando, nele temos a esquerda uma aba onde estará  a conta da pessoa e algumas opções de páginas para o usuário clicar, como a página de vendas/aluguel de imóveis,  outra para mostrar os restaurantes próximos, entre outros. Agora no centro dessa página, teremos um local oned os moradores poderam escrever informações ou qualquer coisa que seja útil para ser compartilhado com os outros. Já a direita temos uma parte onde irá aparecer lugares recomendados para os usuários. 
+(https://github.com/ICEI-PUCMinas-PSG-SI-TI/tiaw_2023-1-inforua/blob/master/docs/relatorio/images/WireFrame.jpeg)
 
 ......  INCLUA AQUI OS WIREFRAMES DAS TELAS DA APLICAÇÃO COM UM BREVE DESCRITIVO ......
 
@@ -190,7 +192,9 @@ Agora no centro dessa página, teremos um local oned os moradores poderam escrev
 
 ## Mapa de navegação
 
-......  COLOQUE AQUI O SEU TEXTO OU DIAGRAMA DE NAVEGAÇÃO .......
+
+
+https://lucid.app/lucidchart/9151eedd-cfbe-4755-b5be-39c23b644835/edit?viewport_loc=-354%2C-1615%2C3840%2C1848%2C0_0&invitationId=inv_a57e391e-1006-4821-8dc0-9fcda3ebec4b
 
 > Inclua uma descrição textual ou um diagrama mostrando, sequencialmente, quais ações
 > um usuário deve realizar para utilizar todas as características do seu sistema. 
@@ -201,10 +205,20 @@ Agora no centro dessa página, teremos um local oned os moradores poderam escrev
 
 # Conclusões
 
-......  COLOQUE AQUI O SEU TEXTO ......
+**Conclusões finais do projeto:**
+
+O projeto tem como principal objetivo trazer benefícios para comunidade, melhoria da acessibilidade de informações, impacto na tomada de decisão e engajamento da comunidade. 
+
+**Considerações finais:**
+
+O projeto de informações de um bairro "InfoRua" tem como objetivo fornecer uma plataforma acessível e abrangente para os moradores obterem informações relevantes de seu bairro, atravéz do nosso site desenvolvido, buscamos facilitar o acesso a informações importantes sobre qualquer recursos e serviços disponíveis no bairro.
+
+Durante o desenvolvimento do projeto, buscamos engajar ativamente a comunidade local, recebendo um feedback e considerando as necessidades e expectativas dos moradores. Isso resultou em um site intuitivo e de fácil navegação, com informações claras e organizadas, incluindo mapas, imagens e descrições detalhadas de pontos relevantes do bairro.
+
+Recomendamos atualizações regulares do site para manter as informações atualizadas e relevantes, bem como a expansão de recursos adicionais com base no feedback e apoio da comunidade.
+
 
 > Finalize escrevendo um ou dois parágrafos para relembrar o objetivo do projeto, 
 > o que foi possível alcançar e o que ficou para um trabalho futuro, e relembrando
 > as principais dificuldes encontradas e como foi possível contorná-las. 
-
 
