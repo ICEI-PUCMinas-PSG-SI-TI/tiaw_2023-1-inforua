@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+*{
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+/*cabeçalho*/
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(79, 226, 223);
+    padding: 20px 20px;
+}
+body{
+    display: flex;
+    height: 100vh;
+    padding: 0;
+  }
+.cabecalho {
+    display: flex;
+    align-items: center;
+}
+  
+.cabecalho img {
+    width: 100px;
+    margin-right: 20px;
+}
+/*conteúdo*/
+main {
+    border-right: 1px solid var(rgb(79, 226, 223));
+    flex: 0.2;
+    min-width: 250px;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+.perfil-button{
+    background-color:rgb(79, 226, 223) ;
+    border: none;
+    color: white;
+    border-radius: 30px;
+    height: 25px;
+    margin-top: 20px;
+    cursor: pointer; 
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+.input-group{
+  /*flex: 0.5;
+  min-width: fit-content;
+  overflow-y: scroll;*/
+  width: 100%;
+}
+.input-box{
+    height: 12vh;
+    font-size: 20px;
+}
+.input-box input{
+    margin: 0.4rem 0;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #0000001c;
+    font-size: 0.8rem; 
+    width: 80%; 
+}
+.input-box input:hover {
+    background-color: #eeeeee75;
+}
+.input-group-header{
+   position: sticky;
+    top: 0;
+    background-color: rgb(79, 226, 223);
+    color: white;
+    padding: 15px 20px;
+    border-radius: 5px;
+  }
+.input-group-header h1{
+    font-size: 20px;
+    font-weight: 800;
+  }
+.input-group-button{
+    background-color:rgb(79, 226, 223) ;
+    border: none;
+    color: white;
+    border-radius: 30px;
+    height: 25px;
+    margin-top: 20px;
+    cursor: pointer; 
+}
+
+ 
+
