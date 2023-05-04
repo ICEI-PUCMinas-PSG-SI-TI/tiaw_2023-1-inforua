@@ -98,7 +98,7 @@ body {
     margin: 0.6rem 0;
     padding: 0.8rem 1.2rem;
     border: none;
-    border-radius: 10px;
+    border-radius: 100px;
     box-shadow: 1px 1px 6px #0000001c;
     font-size: 0.8rem;
 }
@@ -133,7 +133,7 @@ body {
 }
 
 .continue-button button:hover {
-    background-color: #6b63fff1;
+    background-color: #AFEEEE;
 }
 
 .continue-button button a {
@@ -142,6 +142,39 @@ body {
     font-weight: 500;
     color: #fff;
 }
+
+p {
+    font-size: 11pt;
+    text-align: center;
+}
+
+a{
+    color: red;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .3s ease-out;
+}
+
+a:hover{
+    color: rgb(79, 226, 223);
+}
+
+.fa-eye{
+    position: absolute;
+    top: 290px;
+    right: 440px;
+    cursor: pointer;
+    color: black;
+}
+
+#msgError{
+    text-align: center;
+    color: black;
+    background-color: #e14c4c;
+    padding: 10px;
+    border-radius: 4px;
+    display: none;
+  }
 
 @media screen and (max-width: 1330px) {
     .form-image {

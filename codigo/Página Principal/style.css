@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
 *{
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
   }
+
+  
   /*menu lateral*/
 body{
     display: flex;
@@ -80,6 +83,7 @@ body{
     display: flex;
     padding: 30px;
   }
+  
 /*feed*/
 .feed{
   flex: 100%;
@@ -183,4 +187,48 @@ body{
   padding: 20px;
 }
 
+@media screen and (max-width: 1330px) {
+  .form-image {
+      display: none;
+  }
 
+  .sidebar2 {
+      width: 50%;
+  }
+
+  .feed {
+      width: 100%;
+  }
+}
+
+@media screen and (max-width: 1064px) {
+  .container {
+      width: 90%;
+      height: auto;
+  }
+
+  .input-group {
+      flex-direction: column;
+      z-index: 5;
+      padding-right: 5rem;
+      max-height: 10rem;
+      overflow-y: scroll;
+      flex-wrap: nowrap;
+  }
+
+  .gender-inputs {
+      margin-top: 2rem;
+  }
+
+  .gender-group {
+      flex-direction: column;
+  }
+
+  .gender-title h6 {
+      margin: 0;
+  }
+
+  .gender-input {
+      margin-top: 0.5rem;
+  }
+}

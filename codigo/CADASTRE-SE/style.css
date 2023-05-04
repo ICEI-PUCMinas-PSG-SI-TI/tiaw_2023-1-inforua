@@ -141,6 +141,31 @@ body {
     color: #fff;
 }
 
+.fa-eye{
+    position: absolute;
+    top: 330px;
+    right: 400px;
+    cursor: pointer;
+    color: black;
+}
+
+#msgError{
+    text-align: center;
+    color: black;
+    background-color: #e14c4c;
+    padding: 10px;
+    border-radius: 4px;
+    display: none;
+  }
+  
+  #msgSuccess{
+    text-align: center;
+    color: #00bb00;
+    background-color: #bbffbe;
+    padding: 10px;
+    border-radius: 4px;
+    display: none;
+  }
 
 @media screen and (max-width: 1330px) {
     .form-image {
