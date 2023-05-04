@@ -69,9 +69,6 @@ li {
   margin-bottom: 10px;
 }
 .input-group{
-  /*flex: 0.5;
-  min-width: fit-content;
-  overflow-y: scroll;*/
   width: 100%;
 }
 .input-box{
