@@ -1,0 +1,306 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgb(79, 226, 223);
+    width: 99vw;
+    min-width: 580px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+a{
+    width: 110px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 7vh;
+    width: 100%;    
+}
+
+header ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+header a {
+    color:black;
+    font-size: 20px;
+}
+
+header a:hover{
+    border: 2px solid rgb(79, 226, 223);
+    border-radius: 8px;
+}
+  
+
+#initial{
+    background: url(img/hotel.jpg)no-repeat center;
+    background-size: cover;
+    height: 70vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#initial h2{
+    font-size: 3.2em;
+    margin: 2%;
+}
+
+#initial a{
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 8px;
+    color: white;
+    border: 1px solid white;
+    animation-name: botao;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.1s;
+}
+
+#initial a:hover{
+    transition: 0.5s;
+    background: rgba(0,0,0,0.6);
+}
+
+@keyframes botao{
+    0%{
+        transform: translateX(-30px);
+    }
+    25%{
+        transform: translateX(30px);
+    }
+    50%{
+        transform: translateX(-30px);
+    }
+    75%{
+        transform: translateX(30px);
+    }
+    100%{
+        transform: translateX(-30px);
+    }
+}
+
+#reservar{
+    background: darkcyan;
+    color: white;
+    width: 80vw;
+    height: 15vh;
+    border-radius: 8px;
+    margin: -7.5vh auto 0vh;
+    display: flex;
+    justify-content: space-around ;
+    justify-items: center;
+    align-items: center;
+
+
+}
+
+
+#reservar h3{
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+#reservar p{
+    font-size: 0.8em;
+}
+
+
+#reservar div{
+    width: 40%;
+}
+
+#reservar input[type="date"]{
+    width: 95%;
+    border-radius: 8px;
+    border: none;
+    font-size: 2em;
+    text-align: center;
+}
+
+#reservar input[type="submit"]{
+    background: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid  whitesmoke;
+    color: white;
+    font-size: 20px;
+}
+
+#quartos{
+    color: black;
+    height: 70vh;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 1830px;
+}
+
+#quartos .quarto-imagem{
+    display: flex;
+    height: 40vh;
+}
+
+.suite {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 1%;
+    width: 25vw;
+}
+
+.suite h6,h4{
+    font-weight: 400;
+}
+
+.suite h4{
+    font-size: 20px;
+}
+
+.suite h6{
+    font-size: 14px;
+}
+
+.suite img{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    transition: 0.2s;
+}
+
+.suite img:hover{
+    opacity: 0.5;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+#casa .casa-imagem{
+    display: flex;
+    height: 40vh;
+}
+
+.casa {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 1%;
+    width: 25vw;
+}
+
+.casa h6,h4{
+    font-weight: 400;
+}
+
+.casa h4{
+    font-size: 20px;
+}
+
+.casa h6{
+    font-size: 14px;
+}
+
+.casa img{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    transition: 0.2s;
+}
+
+.casa img:hover{
+    opacity: 0.5;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+#servicos{
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 45vh;
+
+}
+
+#servicos .nossos-servicos{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nossos-servicos div{
+    background: rgb(79, 226, 223);
+    width: 30vw;
+    height: 10vh;
+    border-radius: 8px;
+    margin: 5px 0px;
+}
+
+
+.oferecidos {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 50px;
+}
+
+.oferecidos:hover{
+    opacity: 0.5;
+    transition: 0.2s;
+}
+
+.oferecidos p {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+
+.oferecidos img{
+    width: 20%; 
+    transition: 0.2s;
+}
+
+
+
+#mapa{
+    background: white;
+    height: 50vh;
+    padding: 1vh 0;
+
+}
+
+.botao{
+    position: fixed;
+    top: 0;
+    right: 2%;
+    height: 100vh;
+}
+
+.botao-home{
+    position: relative;
+    top: 90vh;
+    width: 40%;
+}
+
+
+footer{
+    background: rgb(79, 226, 223);
+    color: white;
+    height: 5vh;
+    line-height: 5vh;
+
+}

@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
 *{
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -85,16 +86,6 @@ header {
     right: 0;
   }
   
-  .menu{
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    list-style: none;
-  }
-  .menu i{
-    font-size: 24px;
-  }
   /*menu lateral*/
 body{
     display: flex;
@@ -113,20 +104,35 @@ body{
     padding-right: 20px;
   }
   .sidebar2 a{
-    color: rgb(79, 226, 223);
+    color: #111111;
   }
   .sidebarOption i{
     padding: 14px;
   }
+
   .sidebarOption{
     display: flex;
     align-items: center;
     cursor: pointer;
+    list-style: none;
+    background-color: white;
   }
   .sidebarOption h2{
     font-weight: 800;
     font-size: 20px;
     margin-right: 20px;
+  }
+  .sidebarOption li a{
+    font-weight: 800;
+    font-size: 20px;
+    margin-right: 20px;
+    text-decoration: none;
+  }
+  .sidebarOption li a:hover{
+    background-color: rgb(79, 226, 223);
+    border-radius: 30px;
+    color: white;
+    transition: color 100ms ease-out;
   }
   .sidebarOption:hover{
     background-color: rgb(79, 226, 223);
@@ -138,11 +144,14 @@ body{
     width: 100%;
     background-color:rgb(79, 226, 223) ;
     border: none;
-    color: white;
     border-radius: 30px;
     height: 50px;
     margin-top: 20px;
     cursor: pointer;
+  }
+  .sidebarOption__tweet a{
+    color: white;
+    text-decoration: none;
   }
   .sidebar2 nav{
     align-items: center;
@@ -153,10 +162,10 @@ body{
     display: flex;
     padding: 30px;
   }
+  
 /*feed*/
 .feed{
-  flex: 0.5;
-  border-right: 1px solid rgb(6, 8, 28);
+  flex: 100%;
   min-width: fit-content;
   overflow-y: scroll;
 }
@@ -213,6 +222,7 @@ body{
   height: 40px;
   margin-top: 20px;
   margin-left: auto;
+  cursor: pointer;
 }
 /*post*/
 .post__avatar img{
@@ -255,36 +265,49 @@ body{
 .post__avatar{
   padding: 20px;
 }
-/*widget*/
-.widgets{
-  flex: 0.3;
-}
-.widgets__input{
-  display: flex;
-  align-items: center;
-  background-color: rgb(79, 226, 223);
-  padding: 10px;
-  border-radius: 20px;
-  margin-top: 10px;
-  margin-left: 20px;
-}
-.widgets__input input{
-  border: none;
-  background-color: rgb(79, 226, 223);
-  outline: none;
-}
-.widgets__input i{
-  color: gray;
-}
-.widgets__widgetContainer{
-  margin-top: 15px;
-  margin-left: 20px;
-  padding: 20px;
-  background-color: white;
-  border-radius: 20px;
-}
-.widgets__widgetContainer h2{
-  font-size: 18px;
-  font-weight: 800;
+
+@media screen and (max-width: 1330px) {
+  .form-image {
+      display: none;
+  }
+
+  .sidebar2 {
+      width: 50%;
+  }
+
+  .feed {
+      width: 100%;
+  }
 }
 
+@media screen and (max-width: 1064px) {
+  .container {
+      width: 90%;
+      height: auto;
+  }
+
+  .input-group {
+      flex-direction: column;
+      z-index: 5;
+      padding-right: 5rem;
+      max-height: 10rem;
+      overflow-y: scroll;
+      flex-wrap: nowrap;
+  }
+
+  .gender-inputs {
+      margin-top: 2rem;
+  }
+
+  .gender-group {
+      flex-direction: column;
+  }
+
+  .gender-title h6 {
+      margin: 0;
+  }
+
+  .gender-input {
+      margin-top: 0.5rem;
+  }
+}

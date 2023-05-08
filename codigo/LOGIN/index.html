@@ -6,41 +6,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>LOGIN</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">  
+    <title>InfoRua</title>
+    <link rel="icon" type="imgs/png" href="./imgs/LOGOTIAW.jpeg" />
 </head>
 
 <body>
     <div class="container">
         <div class="form-image">
-            <img src="LOGOTIAW.jpeg" alt="Logo">
+            <img src="./imgs/LOGOTIAW.jpeg" alt="Logo">
         </div>
         <div class="form">
-            <form action="#">
+            <form id="login-form "action="#">
                 <div class="form-header">
                     <div class="title">
                         <h1>Login</h1>
+                        <div id="msgError"></div>
                     </div>
                 </div>
 
                 <div class="input-group">
                     <div class="input-box">
-                        <label for="firstname">Nome de Usuário ou senha </label>
-                      <input id="firstname" type="text" name="firstname" placeholder="Usuário/E-mail" required>
+                        <label id="labelEmail" for="labelEmail">Nome de Usuário ou E-mail</label>
+                      <input id="labelEmail" type="text" name="labelEmail" placeholder="Usuário/E-mail" required>
                     </div>
                   
                     <div class="input-box">
-                        <label for="password">Senha</label>
+                        <label id="labelSenha" for="password">Senha</label>
+                        <i class="fa fa-eye" aria-hidden="true"></i>
                         <input id="password" type="password" name="password" placeholder="Digite sua senha" required>
                     </div>
               </div>
+
                 <div class="continue-button">
-                    <button><a href="#">Entrar</a> </button>
+                    <button onclick="entrar()"> Entrar </button>
                 </div>
+
+                <div> 
+                    <p>Não tem uma conta?
+                        <a href="../CADASTRE-SE/index.html"> Cadastre-se </a>
+                    </p>
+                </div>
+
             </form>
         </div>
     </div>
 </body>
-<script src="https://kit.fontawesome.com/98d091b639.js" crossorigin="anonymous"></script>
-    <script src="script.js"></script>
 
 </html>

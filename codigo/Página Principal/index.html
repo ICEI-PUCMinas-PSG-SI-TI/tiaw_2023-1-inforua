@@ -1,92 +1,82 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="imgs/png" href="./imgs/LOGOTIAW.jpeg" />
 
     <title>InfoRua</title>
 </head>
-<header>   
-    <div class="container">
-
-        <div class="hamburger">
-            <div class="line" id="line1"></div>
-            <div class="line" id="line2"></div>
-            <div class="line" id="line3"></div>
-        </div>
-        
-      <aside class="sidebar">
-            <nav>
-                <ul class="menu">
-                  <li><a href="../ENTRE EM CONTATO/index.html">Entrar em Contato <i class="fa-solid fa-phone"></i></a></li>
-                  <hr>
-                  <li><a href="../SOBRE NÓS/index.html">Sobre Nós <i class="fa-solid fa-person"></i></i></a></li>
-            </nav>
-</header>
 <body>
-        <div class="sidebar2">
+          <div class="sidebar2">
           <nav>
             <a href="../PERFIL USUÁRIO/index.html"><i class="fa-regular fa-user"></i></a>          
           </nav>
 
             <div class="sidebarOption">
-              <i class="fa-solid fa-utensils"></i>
-              <h2>Restaurante</h2>
-            </div>
+              <li><i class="fa-solid fa-utensils"></i><a href="../Restaurante/index.html">Restaurante</a></li>
+            </div> 
             <div class="sidebarOption">
               <i class="fa-solid fa-beer-mug-empty"></i>
               <h2>Bar</h2>
-            </div>
+            </div> 
             <div class="sidebarOption">
               <i class="fa-solid fa-cart-shopping"></i>
               <h2>Supermercado</h2>
-            </div>
+            </div> 
             <div class="sidebarOption">
               <i class="fa-solid fa-graduation-cap"></i>
               <h2>Escola</h2>
-            </div>
+            </div> 
             <div class="sidebarOption">
-              <i class="fa-solid fa-key"></i>
-              <h2>Aluguel</h2>
-            </div>
-            <button class="sidebarOption__tweet">Tweet</button>
+              <li><i class="fa-solid fa-key"></i><a href="../IMÓVEIS/index.html">Imóveis</a></li>
+            </div> 
+            <div class="sidebarOption">
+              <li><i class="fa-solid fa-phone"></i><a href="../ENTRE EM CONTATO/index.html">Entrar em Contato</a></li>
+            </div> 
+            <div class="sidebarOption">
+              <li><i class="fa-solid fa-person"></i><a href="../SOBRE NÓS/index.html">Sobre Nós </a></li>
+            </div> 
+          
+            <button class="sidebarOption__tweet"><a href="../LOGIN/index.html">Sair</a></button>
           </div>
+          
+        </div>
           <!--feed-->
           <div class="feed">
             <div class="feed_header">
               <h2>Início</h2>
             </div>
             <div class="tweetBox">
-              <form action="">
-                <div class="tweetbox__input">
-                  <img src="PERFIL.webp" alt="img1">
-                  <input type="text" placeholder="O que está acontecendo"\> 
+              <form id="formulario" action="">
+               <div class="tweetbox__input">
+                  <img src="./imgs/PERFIL.webp" alt="img1">
+                  <input type="text" id="inputText" placeholder="O que está acontecendo"\> 
                 </div>
-                <button class="tweetBox__tweetButton">Tweet</button>
+                <button type="submit" class="tweetBox__tweetButton">Tweet</button>
               </form>
             </div>
           <!--Posts-->
             <div class="post">
               <div class="post__avatar">
-               <img src="PERFIL.webp" alt="Post 1"> 
+               <img src="./imgs/PERFIL.webp" alt="Post 1"> 
               </div>
               <div class="post__body">
                  <div class="post__header">
                    <div class="post__headerText">
-                      <h3>Somanath Goudar
-                        <span class="post__headerSpecial">@somanathg
-                           <span class="material-icons post"></span>
-                        </span>
+                      <h3 id="inputName">Somanath Goudar
+                        <span class="post__headerSpecial">@somanathg</span>
                       </h3>
                    </div>
-                   <div class="pos__headerDescription">
-                    <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                   <div id="commentPost" class="pos__headerDescription">
+                    <!--<p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>-->
                    </div>
                  </div>
-                 <img src="LOGOTIAW.jpeg" alt="">
+                 <!--<img src="./imgs/LOGOTIAW.jpeg" alt="">-->
                 <div class="post__footer">
                   <i class="fa-solid fa-repeat"></i> 
                   <i class="fa-regular fa-heart"></i>
@@ -94,9 +84,9 @@
                 </div>
               </div>
             </div>
-            <div class="post">
+            <!--<div class="post">
               <div class="post__avatar">
-               <img src="PERFIL.webp" alt="Post 1"> 
+               <img src="./imgs/PERFIL.webp" alt="Post 1"> 
               </div>
               <div class="post__body">
                  <div class="post__header">
@@ -112,29 +102,20 @@
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                    </div>
                  </div>
-                 <img src="LOGOTIAW.jpeg" alt="">
+                 <img src="./imgs/LOGOTIAW.jpeg" alt="">
                 <div class="post__footer">
                   <i class="fa-solid fa-repeat"></i> 
                   <i class="fa-regular fa-heart"></i>
                   <i class="fa-solid fa-upload"></i>
                 </div>
               </div>
-            </div>
-          </div>
-          <!--widgets-->
-          <div class="widgets">
-            <div class="widgets__input">
-              <i class="fa-solid fa-magnifying-glass"></i>
-              <input type="text" placeholder="Pesquisar uma loja">
-            </div>
-            <div class="widgets__widgetContainer">
-              <h2>Recomendados</h2>
-            </div>
+            </div>-->
           </div>
   </aside>
   </div>
 
 </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://kit.fontawesome.com/98d091b639.js" crossorigin="anonymous"></script>
     <script src="script.js"></script>
 </html>
