@@ -18,4 +18,4 @@ O Site InfoRua é fundamental para uma comunicação mais eficiente e rápida en
 https://trello.com/invite/b/FAZWgmUD/ATTI945e76c522f6f8e007ab20829af5c783C100129E/site-inforua
 
 ## Instruções para uso
-Coloque aqui as instruções para acessar a página inicial do projeto (caminho completo do arquivo).
+A primeira página a ser executada é a página Login, nela o usuário fará seu login para acessar a página Principal, caso o usuário não possua um login imediato terá a opção de se cadastrar clicando em um botão disponível na página Login, que o levará para a página Cadastro, onde o usuário preencherá os campos e será criada sua conta, logo retornará a página de Login para logar normalmente. Feito o Login, o usuário terá acesso a página Principal do site.
