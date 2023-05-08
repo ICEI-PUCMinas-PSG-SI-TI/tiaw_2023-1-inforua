@@ -11,6 +11,7 @@ O Site InfoRua é fundamental para uma comunicação mais eficiente e rápida en
 
 ## Sprint 1 (15 pontos)
 ### Documentação
+<!-- TODO #2 Atualizar documentaçao @hayanness @AnaaaTC @RB-Souza @PauloMurta --> 
 **ATENÇÃO: No modelo de relatório há um exemplo de como colocar as figuras junto ao texto. Favor fazer isso para persona e wireframes, por favor.**
 - Folha de detalhamento do problema ✔️
 - Persona(s) ✔️
