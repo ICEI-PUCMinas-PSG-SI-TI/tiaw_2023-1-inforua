@@ -10,8 +10,9 @@ form.addEventListener("submit",(event)=>{
     event.preventDefault();
 
     let p= document.createElement('p');
-   //p.classList = 'p-2 d-flex text-wap';
-    p.innerHTML = '${textComment.value}';
+    p.classList = 'p-2 d-flex text-wap flex-wap';
+    p.innerHTML = textComment.value;
     commentPost.appendChild(p);
+    textComment.value = '';
 
 });
