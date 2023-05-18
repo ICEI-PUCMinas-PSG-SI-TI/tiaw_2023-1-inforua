@@ -51,6 +51,8 @@ img {
     border-radius: 30px;
     height: 25px;
     margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
     cursor: pointer; 
 }
 
@@ -107,6 +109,47 @@ li {
     height: 25px;
     margin-top: 20px;
     cursor: pointer; 
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+@media screen and (max-width: 1100px) {
+    .input-group-header{
+        margin: 10px;
+     }
+
+     .input-box{
+        margin-left: 10px;
+        margin-right: 10px;
+     }
+
+     .input-box + .input-box{
+        margin-top: 50px;
+     }
+}
+    
+
+@media screen and (max-width: 600px) {
+    header{
+        height: 100px;
+    }
+    
+    header div img{
+        height: 160px;
+    }
+
+    body{
+        display: block;
+    }
+
+    #profile{
+        margin: 0 50px;
+     }
+    
+     .perfil-button{
+        display: block;
+     }
+     
 }
 
  

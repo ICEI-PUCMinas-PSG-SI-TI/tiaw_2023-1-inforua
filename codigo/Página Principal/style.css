@@ -266,48 +266,40 @@ body{
   padding: 20px;
 }
 
-@media screen and (max-width: 1330px) {
-  .form-image {
-      display: none;
+
+@media screen and (max-width: 600px) {
+  body{
+      display: block;
   }
 
-  .sidebar2 {
-      width: 50%;
+  .sidebar2{
+    margin-bottom: 40px;
+  }
+  
+  .sidebarOption__tweet{
+    font-size: larger;
+  }
+  .feed_header{
+    width: 80%;
+    z-index: -1;
+  }
+  .sidebar{
+    height: 100%;
   }
 
-  .feed {
-      width: 100%;
-  }
-}
-
-@media screen and (max-width: 1064px) {
-  .container {
-      width: 90%;
-      height: auto;
+  .tweetBox{
+    margin: 0 auto;
+    width: 80%;
   }
 
-  .input-group {
-      flex-direction: column;
-      z-index: 5;
-      padding-right: 5rem;
-      max-height: 10rem;
-      overflow-y: scroll;
-      flex-wrap: nowrap;
+  /*jeito mais facil de centralizar img*/
+  #img-post{
+    width: 300px;
+    display: block;
+    margin: 0 auto;
   }
 
-  .gender-inputs {
-      margin-top: 2rem;
-  }
-
-  .gender-group {
-      flex-direction: column;
-  }
-
-  .gender-title h6 {
-      margin: 0;
-  }
-
-  .gender-input {
-      margin-top: 0.5rem;
+  .post__footer{
+    justify-content: space-evenly;
   }
 }
